@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JEditorPane" name="jEditorPane1">
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1024, 576]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" pref="275" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btnclose" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="btnclose" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" pref="379" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Component id="jPanel1" pref="576" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnadd">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Add"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="190" width="150" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnupdate">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Update"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="310" width="150" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="btndelete">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Delete"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="120" y="440" width="150" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbltimeticker">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="36" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="TIME TICKER "/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="10" width="236" height="51"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblsetyour">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Set Yout Time In Your Mind"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="31" y="83" width="230" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="70" width="228" height="10"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Image/sdsdf.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="420" width="90" height="80"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Image/sdsdsd.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="170" width="100" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Image/sdsdf (1).png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="280" width="110" height="100"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblbrand">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Watch Brand"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="180" width="122" height="35"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbltype">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Watch Type"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="390" y="110" width="122" height="35"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblprice">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Watch Price"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="390" y="170" width="122" height="35"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblquantity">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Watch Quantity"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="220" y="240" width="122" height="35"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtno">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="110" width="220" height="27"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtprice">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="510" y="170" width="220" height="27"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblno">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Watch No"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="110" width="122" height="32"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="comboxwatchtype">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="14">
+                <StringItem index="0" value="Wrist Watch Men"/>
+                <StringItem index="1" value="Wrist Watch Women"/>
+                <StringItem index="2" value="Wall Clocks"/>
+                <StringItem index="3" value="Pocket Watch "/>
+                <StringItem index="4" value="Railroad Watch "/>
+                <StringItem index="5" value="Dress Watch "/>
+                <StringItem index="6" value="Field Watch "/>
+                <StringItem index="7" value="Aviator Watch"/>
+                <StringItem index="8" value="Dive Watch "/>
+                <StringItem index="9" value="Racing Watch "/>
+                <StringItem index="10" value="Digital Watch "/>
+                <StringItem index="11" value="Smart Watch "/>
+                <StringItem index="12" value="Fashion Watch"/>
+                <StringItem index="13" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="510" y="110" width="220" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="comboxquantity">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="10">
+                <StringItem index="0" value="1"/>
+                <StringItem index="1" value="2"/>
+                <StringItem index="2" value="3"/>
+                <StringItem index="3" value="4"/>
+                <StringItem index="4" value="5"/>
+                <StringItem index="5" value="6"/>
+                <StringItem index="6" value="7"/>
+                <StringItem index="7" value="8"/>
+                <StringItem index="8" value="9"/>
+                <StringItem index="9" value="10"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="350" y="240" width="220" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="373">
+                <StringItem index="0" value="Accurist"/>
+                <StringItem index="1" value="ADINA Watches"/>
+                <StringItem index="2" value="Adidas"/>
+                <StringItem index="3" value="Adriatica"/>
+                <StringItem index="4" value="A.L.B Atelier Le Br&#xe9;z&#xe9;guet"/>
+                <StringItem index="5" value="Alba"/>
+                <StringItem index="6" value="Alexandre Christie"/>
+                <StringItem index="7" value="American Waltham Watch Company"/>
+                <StringItem index="8" value="Andersen Geneve"/>
+                <StringItem index="9" value="Anonimo (watch)"/>
+                <StringItem index="10" value="anOrdain"/>
+                <StringItem index="11" value="Ansonia Clock Company"/>
+                <StringItem index="12" value="Apple Inc."/>
+                <StringItem index="13" value="Aquastar"/>
+                <StringItem index="14" value="Aragon"/>
+                <StringItem index="15" value="Armand Nicolet"/>
+                <StringItem index="16" value="Armani Exchange"/>
+                <StringItem index="17" value="Armitron"/>
+                <StringItem index="18" value="John Arnold"/>
+                <StringItem index="19" value="Hajime Asaoka"/>
+                <StringItem index="20" value="ASUAG"/>
+                <StringItem index="21" value="Audemars Piguet"/>
+                <StringItem index="22" value="Alpina"/>
+                <StringItem index="23" value="Ateliers deMonaco"/>
+                <StringItem index="24" value=" "/>
+                <StringItem index="25" value="Backes &amp; Strauss"/>
+                <StringItem index="26" value="B-UHR"/>
+                <StringItem index="27" value="Batman Secret Gadgets Watches"/>
+                <StringItem index="28" value="Bausele"/>
+                <StringItem index="29" value="Baume et Mercier"/>
+                <StringItem index="30" value="Ball Watch Company"/>
+                <StringItem index="31" value="Webb C. Ball"/>
+                <StringItem index="32" value="Bedat &amp; Co"/>
+                <StringItem index="33" value="Beijing Watch Factory"/>
+                <StringItem index="34" value="Bell &amp; Ross"/>
+                <StringItem index="35" value="Benetton Group"/>
+                <StringItem index="36" value="Benrus"/>
+                <StringItem index="37" value="BOLDR Supply Co"/>
+                <StringItem index="38" value="Jochen Benzinger"/>
+                <StringItem index="39" value="Binda Group"/>
+                <StringItem index="40" value="Blancpain"/>
+                <StringItem index="41" value="Blumarine"/>
+                <StringItem index="42" value="Ernest Borel"/>
+                <StringItem index="43" value="Bovet Fleurier"/>
+                <StringItem index="44" value="Edouard Bovet"/>
+                <StringItem index="45" value="Bozeman Watch Company"/>
+                <StringItem index="46" value="Abraham-Louis Breguet"/>
+                <StringItem index="47" value="Breguet (watch)"/>
+                <StringItem index="48" value="Breil (company)"/>
+                <StringItem index="49" value="Breitling"/>
+                <StringItem index="50" value="Bremont Watch Company"/>
+                <StringItem index="51" value="Gustav Bruemmer"/>
+                <StringItem index="52" value="Buccellati"/>
+                <StringItem index="53" value="Bulgari"/>
+                <StringItem index="54" value="Bulova"/>
+                <StringItem index="55" value="Burberry"/>
+                <StringItem index="56" value=" "/>
+                <StringItem index="57" value="Carl F. Bucherer"/>
+                <StringItem index="58" value="Cartier SA"/>
+                <StringItem index="59" value="Casio"/>
+                <StringItem index="60" value="Cecil Purnell"/>
+                <StringItem index="61" value="Catorex"/>
+                <StringItem index="62" value="Century Time Gems Ltd"/>
+                <StringItem index="63" value="Certina"/>
+                <StringItem index="64" value="Chanel"/>
+                <StringItem index="65" value="Charles Jourdan"/>
+                <StringItem index="66" value="Charriol"/>
+                <StringItem index="67" value="Konstantin Chaykin"/>
+                <StringItem index="68" value="Chopard"/>
+                <StringItem index="69" value="Christian Jacques"/>
+                <StringItem index="70" value="Christopher Ward"/>
+                <StringItem index="71" value="Chronoswiss"/>
+                <StringItem index="72" value="Chung nam group"/>
+                <StringItem index="73" value="Citizen Watch Co."/>
+                <StringItem index="74" value="Ck Calvin Klein"/>
+                <StringItem index="75" value="Concord watch"/>
+                <StringItem index="76" value="Corum"/>
+                <StringItem index="77" value="Curtis Australia"/>
+                <StringItem index="78" value="Cyma Watches"/>
+                <StringItem index="79" value="Czapek &amp; Cie"/>
+                <StringItem index="80" value=" "/>
+                <StringItem index="81" value="D1 Milano"/>
+                <StringItem index="82" value="Dakota Watch Company"/>
+                <StringItem index="83" value="Damasko"/>
+                <StringItem index="84" value="Damiani"/>
+                <StringItem index="85" value="Dan Henry Watches"/>
+                <StringItem index="86" value="Daniel Wellington"/>
+                <StringItem index="87" value="George Daniels"/>
+                <StringItem index="88" value="Daywatch"/>
+                <StringItem index="89" value="Aaron Lufkin Dennison"/>
+                <StringItem index="90" value="Edward John Dent"/>
+                <StringItem index="91" value="Dior"/>
+                <StringItem index="92" value="D. Dornbl&#xfc;th &amp; Sohn"/>
+                <StringItem index="93" value="Doxa S.A."/>
+                <StringItem index="94" value="Dreffa"/>
+                <StringItem index="95" value="Dubey Schaldenbrand"/>
+                <StringItem index="96" value="Roger Dubuis"/>
+                <StringItem index="97" value="Dueber-Hampden Watch Company"/>
+                <StringItem index="98" value=" "/>
+                <StringItem index="99" value="Thomas Earnshaw"/>
+                <StringItem index="100" value="Ebel"/>
+                <StringItem index="101" value="Eberhard &amp; Co."/>
+                <StringItem index="102" value="Edox"/>
+                <StringItem index="103" value="Etienne Aigner"/>
+                <StringItem index="104" value="Elgin National Watch Company"/>
+                <StringItem index="105" value="Emporio Armani"/>
+                <StringItem index="106" value="EPOS"/>
+                <StringItem index="107" value="Endura Watch Factory"/>
+                <StringItem index="108" value="Louis Erard"/>
+                <StringItem index="109" value="ETA SA"/>
+                <StringItem index="110" value="ESPRIT"/>
+                <StringItem index="111" value="Eterna"/>
+                <StringItem index="112" value=" "/>
+                <StringItem index="113" value="Fastrack (fashion accessories)"/>
+                <StringItem index="114" value="A. Favre &amp; Fils"/>
+                <StringItem index="115" value="Carlo Ferrara"/>
+                <StringItem index="116" value="Festina"/>
+                <StringItem index="117" value="Favre-Leuba"/>
+                <StringItem index="118" value="Fendi"/>
+                <StringItem index="119" value="Fila"/>
+                <StringItem index="120" value="Fortis Uhren"/>
+                <StringItem index="121" value="Fr&#xe9;d&#xe9;rique Constant"/>
+                <StringItem index="122" value="Fossil, Inc."/>
+                <StringItem index="123" value="Folli Follie"/>
+                <StringItem index="124" value="Charles Frodsham"/>
+                <StringItem index="125" value="French Connection"/>
+                <StringItem index="126" value="Karsten Fr&#xe4;ssdorf"/>
+                <StringItem index="127" value="Fitbit"/>
+                <StringItem index="128" value="Franck Muller"/>
+                <StringItem index="129" value=" "/>
+                <StringItem index="130" value="Gallet &amp; Co."/>
+                <StringItem index="131" value="Garmin"/>
+                <StringItem index="132" value="L&#xe9;on Gallet"/>
+                <StringItem index="133" value="Romain Gauthier"/>
+                <StringItem index="134" value="General Watch Co"/>
+                <StringItem index="135" value="Louis George (biography)"/>
+                <StringItem index="136" value="Giordano"/>
+                <StringItem index="137" value="Girard-Perregaux"/>
+                <StringItem index="138" value="Glash&#xfc;tte Original"/>
+                <StringItem index="139" value="Glycine Watch"/>
+                <StringItem index="140" value="George Graham"/>
+                <StringItem index="141" value="Greubel Forsey"/>
+                <StringItem index="142" value="Moritz Grossmann"/>
+                <StringItem index="143" value="Grovana Watch"/>
+                <StringItem index="144" value="Gruen Watch Co."/>
+                <StringItem index="145" value="Guess Watches Co."/>
+                <StringItem index="146" value=" "/>
+                <StringItem index="147" value="Halda Watch Company"/>
+                <StringItem index="148" value="Vianney Halter"/>
+                <StringItem index="149" value="Hamilton Watch Company"/>
+                <StringItem index="150" value="Hangzhou Watch Company"/>
+                <StringItem index="151" value="Hanhart"/>
+                <StringItem index="152" value="Hanowa"/>
+                <StringItem index="153" value="John Harrison"/>
+                <StringItem index="154" value="Herm&#xe8;s"/>
+                <StringItem index="155" value="HMT Limited"/>
+                <StringItem index="156" value="E. Howard &amp; Co."/>
+                <StringItem index="157" value="Hublot"/>
+                <StringItem index="158" value="Hugo Boss"/>
+                <StringItem index="159" value=" "/>
+                <StringItem index="160" value="Ikepod"/>
+                <StringItem index="161" value="Illinois Watch Company"/>
+                <StringItem index="162" value="Ingersoll Watch Company"/>
+                <StringItem index="163" value="International Watch Company"/>
+                <StringItem index="164" value="Invicta Watch Group"/>
+                <StringItem index="165" value=" "/>
+                <StringItem index="166" value="Jaeger-LeCoultre"/>
+                <StringItem index="167" value="Pierre Jaquet-Droz"/>
+                <StringItem index="168" value="Georg Jensen"/>
+                <StringItem index="169" value="Jacob &amp; Co"/>
+                <StringItem index="170" value="Jean Perret"/>
+                <StringItem index="171" value="F.P. Journe"/>
+                <StringItem index="172" value="Jowissa"/>
+                <StringItem index="173" value="Junghans"/>
+                <StringItem index="174" value="Jules Jurgensen"/>
+                <StringItem index="175" value="Jorg Gray"/>
+                <StringItem index="176" value="Jaipur Watch Company"/>
+                <StringItem index="177" value=" "/>
+                <StringItem index="178" value="Kienzle"/>
+                <StringItem index="179" value="Kudoke"/>
+                <StringItem index="180" value="Kurono Tokyo"/>
+                <StringItem index="181" value="Kikuchi Nakagawa"/>
+                <StringItem index="182" value=" "/>
+                <StringItem index="183" value="Lacoste"/>
+                <StringItem index="184" value="Laco Uhrenmanufaktur"/>
+                <StringItem index="185" value="Lancashire Watch Company"/>
+                <StringItem index="186" value="Lang &amp; Heyne"/>
+                <StringItem index="187" value="A. Lange &amp; S&#xf6;hne"/>
+                <StringItem index="188" value="Jean Lassale"/>
+                <StringItem index="189" value="Leijona watch"/>
+                <StringItem index="190" value="Lemania"/>
+                <StringItem index="191" value="Levi Strauss &amp; Co."/>
+                <StringItem index="192" value="Lilienthal Berlin"/>
+                <StringItem index="193" value="Limit"/>
+                <StringItem index="194" value="Linde Werdelin"/>
+                <StringItem index="195" value="Lip"/>
+                <StringItem index="196" value="Peter Litherland"/>
+                <StringItem index="197" value="Locman"/>
+                <StringItem index="198" value="Longines"/>
+                <StringItem index="199" value="Louis Erard"/>
+                <StringItem index="200" value="Louis Moinet"/>
+                <StringItem index="201" value="Louis Vuitton"/>
+                <StringItem index="202" value="Luch"/>
+                <StringItem index="203" value="Luminox"/>
+                <StringItem index="204" value=" "/>
+                <StringItem index="205" value="Maitres du Temps"/>
+                <StringItem index="206" value="Manhattan Watch Company"/>
+                <StringItem index="207" value="Manistee Watch"/>
+                <StringItem index="208" value="Manufacture royale"/>
+                <StringItem index="209" value="Marc Ecko"/>
+                <StringItem index="210" value="Mathey-Tissot"/>
+                <StringItem index="211" value="Maurice Lacroix"/>
+                <StringItem index="212" value="MB&amp;F"/>
+                <StringItem index="213" value="MeisterSinger"/>
+                <StringItem index="214" value="Melbourne Watch Company"/>
+                <StringItem index="215" value="Mido"/>
+                <StringItem index="216" value="Molnija"/>
+                <StringItem index="217" value="Ming"/>
+                <StringItem index="218" value="Mondaine"/>
+                <StringItem index="219" value="Louis Moinet"/>
+                <StringItem index="220" value="Montblanc"/>
+                <StringItem index="221" value="Montegrappa"/>
+                <StringItem index="222" value="Morellato Group"/>
+                <StringItem index="223" value="Moschino"/>
+                <StringItem index="224" value="H. Moser &amp; Cie"/>
+                <StringItem index="225" value="Mossimo"/>
+                <StringItem index="226" value="Movado"/>
+                <StringItem index="227" value="Franck Muller"/>
+                <StringItem index="228" value=" "/>
+                <StringItem index="229" value="Newgate Watches"/>
+                <StringItem index="230" value="Nivada"/>
+                <StringItem index="231" value="Nixon Watches"/>
+                <StringItem index="232" value="Nomos Glash&#xfc;tte"/>
+                <StringItem index="233" value="Nostal"/>
+                <StringItem index="234" value="Nike Inc."/>
+                <StringItem index="235" value=" "/>
+                <StringItem index="236" value="Ollech &amp; Wajs"/>
+                <StringItem index="237" value="Omega SA"/>
+                <StringItem index="238" value="Orex"/>
+                <StringItem index="239" value="Orient Watch Co., Ltd."/>
+                <StringItem index="240" value="Oris"/>
+                <StringItem index="241" value="O bag"/>
+                <StringItem index="242" value=" "/>
+                <StringItem index="243" value="Panerai"/>
+                <StringItem index="244" value="Parmigiani Fleurier"/>
+                <StringItem index="245" value="Parnis Watches"/>
+                <StringItem index="246" value="Antoni Patek"/>
+                <StringItem index="247" value="Patek Philippe &amp; Co."/>
+                <StringItem index="248" value="Perrelet"/>
+                <StringItem index="249" value="Pequignet"/>
+                <StringItem index="250" value="Petrodvorets Watch Factory (Russian: &#x41f;&#x435;&#x442;&#x440;&#x43e;&#x434;&#x432;&#x43e;&#x440;&#x446;&#x43e;&#x432;&#x44b;&#x439; &#x447;&#x430;&#x441;&#x43e;&#x432;&#x43e;&#x439; &#x437;&#x430;&#x432;&#x43e;&#x434;)"/>
+                <StringItem index="251" value="Philip Zepter"/>
+                <StringItem index="252" value="Piaget SA"/>
+                <StringItem index="253" value="Pierre De Roche"/>
+                <StringItem index="254" value="Adrien Philippe"/>
+                <StringItem index="255" value="Philip Watch"/>
+                <StringItem index="256" value="Henry Pitkin"/>
+                <StringItem index="257" value="Pobeda (Russian: &#x41f;&#x43e;&#x431;&#x435;&#x434;&#x430;, Victory)"/>
+                <StringItem index="258" value="Poljot"/>
+                <StringItem index="259" value="Polo Ralph Lauren"/>
+                <StringItem index="260" value="Prada"/>
+                <StringItem index="261" value="Pulsar (watch)"/>
+                <StringItem index="262" value="Police (brand)"/>
+                <StringItem index="263" value="PRIM"/>
+                <StringItem index="264" value=" "/>
+                <StringItem index="265" value="Ritzy Group"/>
+                <StringItem index="266" value="Rado"/>
+                <StringItem index="267" value="Raketa (Russian: &#x420;&#x430;&#x43a;&#x435;&#x442;&#x430;, Rocket)"/>
+                <StringItem index="268" value="David Ramsay"/>
+                <StringItem index="269" value="Razer Inc."/>
+                <StringItem index="270" value="Raymond Weil"/>
+                <StringItem index="271" value="Regina"/>
+                <StringItem index="272" value="Reguladora"/>
+                <StringItem index="273" value="Ressence"/>
+                <StringItem index="274" value="Revue Thommen"/>
+                <StringItem index="275" value="Richard Mille"/>
+                <StringItem index="276" value="Roamer"/>
+                <StringItem index="277" value="Rodania"/>
+                <StringItem index="278" value="Rolex"/>
+                <StringItem index="279" value="ROSTAM"/>
+                <StringItem index="280" value="ROMAGO"/>
+                <StringItem index="281" value="Ronda AG"/>
+                <StringItem index="282" value="Rotary Watches"/>
+                <StringItem index="283" value="Daniel Roth"/>
+                <StringItem index="284" value=" "/>
+                <StringItem index="285" value="Samsung Galaxy Watch"/>
+                <StringItem index="286" value="Sandoz watches"/>
+                <StringItem index="287" value="Schwarz Etienne"/>
+                <StringItem index="288" value="Sea-Gull"/>
+                <StringItem index="289" value="Sector"/>
+                <StringItem index="290" value="Seiko"/>
+                <StringItem index="291" value="Seiko Epson"/>
+                <StringItem index="292" value="Seiko Instruments"/>
+                <StringItem index="293" value="Seikosha"/>
+                <StringItem index="294" value="Sekonda"/>
+                <StringItem index="295" value="Shinola Detroit"/>
+                <StringItem index="296" value="Shanghai Watch Co."/>
+                <StringItem index="297" value="Shoreham Watches"/>
+                <StringItem index="298" value="Sinn (watchmaker)"/>
+                <StringItem index="299" value="SSIH previous holding company, now integrated into Swatch Group"/>
+                <StringItem index="300" value="Skagen Designs"/>
+                <StringItem index="301" value="Alexander Shorokhoff"/>
+                <StringItem index="302" value="Slava watches"/>
+                <StringItem index="303" value="Slow watch"/>
+                <StringItem index="304" value="Roger W. Smith"/>
+                <StringItem index="305" value="SMH short for Soci&#xe9;t&#xe9; de Micro&#xe9;lectronique et d&apos;Horlogerie previous name of the company issued from the merger of ASUAG &amp; SSIH, now Swatch Group"/>
+                <StringItem index="306" value="Solvil et Titus"/>
+                <StringItem index="307" value="Speake-Marin"/>
+                <StringItem index="308" value="Star Watch Case Company"/>
+                <StringItem index="309" value="Stauer"/>
+                <StringItem index="310" value="Stepan Sarpaneva"/>
+                <StringItem index="311" value="Stowa"/>
+                <StringItem index="312" value="Andreas Strehler"/>
+                <StringItem index="313" value="St&#xfc;hrling"/>
+                <StringItem index="314" value="STUNIII"/>
+                <StringItem index="315" value="Suunto"/>
+                <StringItem index="316" value="Swatch Group"/>
+                <StringItem index="317" value=" "/>
+                <StringItem index="318" value="TAG Heuer"/>
+                <StringItem index="319" value="Technos"/>
+                <StringItem index="320" value="Seth Thomas"/>
+                <StringItem index="321" value="Thomas Tompion"/>
+                <StringItem index="322" value="Tianjin Sea-Gull"/>
+                <StringItem index="323" value="Tiffany &amp; Co"/>
+                <StringItem index="324" value="Timex Group"/>
+                <StringItem index="325" value="Tissot"/>
+                <StringItem index="326" value="Titan Industries"/>
+                <StringItem index="327" value="Tommy Hilfiger"/>
+                <StringItem index="328" value="Tourneau"/>
+                <StringItem index="329" value="ToyWatch"/>
+                <StringItem index="330" value="Traska"/>
+                <StringItem index="331" value="Rashid Tsoroev"/>
+                <StringItem index="332" value="Tudor"/>
+                <StringItem index="333" value="Tutima"/>
+                <StringItem index="334" value="TW Steel"/>
+                <StringItem index="335" value="Titoni"/>
+                <StringItem index="336" value="Hawler"/>
+                <StringItem index="337" value="Tusal"/>
+                <StringItem index="338" value=" "/>
+                <StringItem index="339" value="Ulysse Nardin"/>
+                <StringItem index="340" value="Universal Gen&#xe8;ve"/>
+                <StringItem index="341" value="kidus"/>
+                <StringItem index="342" value="Urwerk"/>
+                <StringItem index="343" value=" "/>
+                <StringItem index="344" value="Vacheron Constantin"/>
+                <StringItem index="345" value="Vacuum Chronometer Corporation"/>
+                <StringItem index="346" value="Valjoux"/>
+                <StringItem index="347" value="Versus (Versace)"/>
+                <StringItem index="348" value="Victorinox"/>
+                <StringItem index="349" value="Visconti (company)"/>
+                <StringItem index="350" value="Vostok watches"/>
+                <StringItem index="351" value=" "/>
+                <StringItem index="352" value="Waltham International SA"/>
+                <StringItem index="353" value="Waltham Watch Company"/>
+                <StringItem index="354" value="Christopher Ward (watchmaker)"/>
+                <StringItem index="355" value="Wenger"/>
+                <StringItem index="356" value="Westclox"/>
+                <StringItem index="357" value="WeWOOD"/>
+                <StringItem index="358" value="West End Watch Co"/>
+                <StringItem index="359" value="Wittnauer"/>
+                <StringItem index="360" value="Wyler (company)"/>
+                <StringItem index="361" value="Joseph Windmills"/>
+                <StringItem index="362" value="Harry Winston"/>
+                <StringItem index="363" value=" "/>
+                <StringItem index="364" value="Xezo"/>
+                <StringItem index="365" value=" "/>
+                <StringItem index="366" value="Yema (watch)"/>
+                <StringItem index="367" value=" "/>
+                <StringItem index="368" value="Zenith"/>
+                <StringItem index="369" value="Zeno-Watch Basel"/>
+                <StringItem index="370" value="Zetner (watchmaker) U.K."/>
+                <StringItem index="371" value="Zodiac Watches"/>
+                <StringItem index="372" value="Zero West"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="179" width="220" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="66" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="268" max="-2" attributes="0"/>
+                          <Component id="lblwatches" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="jSeparator1" min="-2" pref="195" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="342" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="lblwatches" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="10" max="32767" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="31" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblwatches">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Californian FB" size="48" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Watches"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnclose">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="X"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncloseActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
